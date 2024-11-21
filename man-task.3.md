@@ -6,8 +6,10 @@ task \- A command line todo manager.
 
 ## SYNOPSIS
 
-**task <filter> <command> [ <mods> | <args> ]**
-**task --version**
+```
+task <filter> <command> [ <mods> | <args> ]
+task --version
+```
 
 ## DESCRIPTION
 
@@ -122,14 +124,16 @@ Taskwarrior. The output and sort behavior of these reports can be configured in
 the configuration file. See also the man page taskrc(5).  There are also other
 read subcommands that are not reports.
 
--
-**task --version**
+```
+task --version
+```
 This is the only conventional command line argument that Taskwarrior supports,
 and is intended for add-on scripts to verify the version number of an installed
 Taskwarrior without invoking the mechanisms that create default files.
 
--
-**task <filter>**
+```
+task <filter>
+```
 With no command specified, the default command is run, and the filter applied.
 
 -
