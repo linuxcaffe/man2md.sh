@@ -127,18 +127,19 @@ read subcommands that are not reports.
 ```
 task --version
 ```
-This is the only conventional command line argument that Taskwarrior supports,
+> This is the only conventional command line argument that Taskwarrior supports,
 and is intended for add-on scripts to verify the version number of an installed
 Taskwarrior without invoking the mechanisms that create default files.
 
 ```
 task <filter>
 ```
-With no command specified, the default command is run, and the filter applied.
+> With no command specified, the default command is run, and the filter applied.
 
--
-**task <filter> active**
-Shows all tasks matching the filter that are started but not completed.
+```
+task <filter> active
+```
+> Shows all tasks matching the filter that are started but not completed.
 
 -
 **task <filter> all**
