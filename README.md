@@ -1,3 +1,5 @@
+__LOOK AWAY! lOOK AWAY!! Ugly testing going on here!__
+
 ## man2md.sh
 a simple script to convert nroff manpages to markdown, whipped up by Claude 3.5 Sonnet, (yeah.. I know) and works great!
 
